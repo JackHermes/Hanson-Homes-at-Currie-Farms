@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Footer from './Footer.js';
 import Header from './Header.js';
 import './App.css';
-import drawnHome from './images/drawnHome.png';
+import drawnHome from './images/sketchedHome.jpg';
 
 class App extends Component {
   render() {
@@ -12,7 +12,9 @@ class App extends Component {
         <p className="App-intro">
           Homes are here. Like this one:
         </p>
-        <img src={drawnHome} alt="Drawn image of a home" />
+        <div className="App-body">
+          <img src={drawnHome} alt="Drawn home" />
+        </div>
         <Footer />
       </div>
     );

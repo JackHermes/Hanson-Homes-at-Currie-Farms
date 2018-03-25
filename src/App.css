@@ -7,10 +7,8 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #345f7a;
   color: white;
-  height: 150px;
-  padding: 20px;
 }
 
 .App-title {
@@ -22,8 +20,12 @@
 }
 
 .App-footer {
-  background-color: #222;
+  background-color: #345f7a;
   color: white;
-  height: 150px;
-  padding: 20px;
+}
+
+.App-body {
+  background-color: #6c843e;
+  /* color: #ad912e; */
+  height:1000px;
 }

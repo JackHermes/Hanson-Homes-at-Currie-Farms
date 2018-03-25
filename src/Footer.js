@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="App-footer">
-        site made by me
+        Jordan M. Scholten
       </footer>
     );
   }
