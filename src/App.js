@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <p className="App-intro">
-          Homes are here. Like this one:
+      
         </p>
         <div className="App-body">
           <img src={drawnHome} alt="Drawn home" />

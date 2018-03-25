@@ -32,8 +32,17 @@
   color: white;
 }
 
+.App-footer img {
+  height: 100px;
+  padding: 10px;
+}
+
 .App-body {
   background-color: #6c843e;
   /* color: #ad912e; */
   height:1000px;
+}
+
+.App-body img {
+  padding: 50px;
 }
