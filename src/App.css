@@ -1,3 +1,7 @@
+h2 {
+  padding-top: 30px;
+}
+
 .App {
   text-align: center;
 }
@@ -25,6 +29,10 @@
 
 .App-intro {
   font-size: large;
+  background-color: #ad912e;
+  /* border-color:  #ad912e; */
+  /* margin: 0px; */
+  /* padding: 20px; */
 }
 
 .App-footer {
@@ -35,14 +43,21 @@
 .App-footer img {
   height: 100px;
   padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .App-body {
   background-color: #6c843e;
+  color: white;
   /* color: #ad912e; */
-  height:1000px;
+  height:850px;
 }
 
 .App-body img {
   padding: 50px;
+}
+
+.bold {
+  font-weight: bold;
 }
