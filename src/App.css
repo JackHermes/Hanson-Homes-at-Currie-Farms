@@ -1,5 +1,5 @@
 h2 {
-  padding-top: 30px;
+  padding-top: 1.3em;
 }
 
 .App {
@@ -7,8 +7,8 @@ h2 {
 }
 
 .App-logo {
-  height: 100px;
-  padding: 10px;
+  height: 6em;
+  padding: .6em;
 }
 
 .App-header {
@@ -23,8 +23,8 @@ h2 {
 
 .App-title {
   font-size: 1.5em;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 1.65em;
+  margin-left: 1.65em;
 }
 
 .App-intro {
@@ -41,21 +41,22 @@ h2 {
 }
 
 .App-footer img {
-  height: 100px;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+  height: 6em;
+  padding: .6em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .App-body {
   background-color: #6c843e;
   color: white;
   /* color: #ad912e; */
-  height:850px;
+  height:50em;
 }
 
 .App-body img {
-  padding: 50px;
+  height: 14em;
+  padding: 3em;
 }
 
 .bold {
