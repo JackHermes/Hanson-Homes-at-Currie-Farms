@@ -1,50 +1,10 @@
 h2 {
   padding-top: 1.3em;
+  margin: 0em;
 }
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 6em;
-  padding: .6em;
-}
-
-.App-header {
-  background-color: #345f7a;
-  color: white;
-  display: flex;
-}
-
-.App-header h1 {
-  padding-top: 30px;
-}
-
-.App-title {
-  font-size: 1.5em;
-  margin-top: 1.65em;
-  margin-left: 1.65em;
-}
-
-.App-intro {
-  font-size: large;
-  background-color: #ad912e;
-  /* border-color:  #ad912e; */
-  /* margin: 0px; */
-  /* padding: 20px; */
-}
-
-.App-footer {
-  background-color: #345f7a;
-  color: white;
-}
-
-.App-footer img {
-  height: 6em;
-  padding: .6em;
-  margin-left: 3em;
-  margin-right: 3em;
 }
 
 .App-body {
@@ -52,14 +12,12 @@ h2 {
   color: white;
   /* color: #ad912e; */
   height:50em;
+  margin-top: 0.5em;
+  margin-bottom: .5em;
 }
 
 .App-body img {
   height: 13.505em;
   padding: 3em;
   width: 30em;
-}
-
-.bold {
-  font-weight: bold;
 }

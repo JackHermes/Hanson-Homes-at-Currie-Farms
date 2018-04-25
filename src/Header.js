@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Logo from './Logo.js';
+import './Header.css';
+import CFLogo from './images/currieFarmsLogo.jpg';
 
 class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <Logo />
+        <img src={CFLogo} className="App-logo" alt="logo" />
         <h1 className="App-title">Welcome Home.</h1>
       </header>
     );
