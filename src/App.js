@@ -12,7 +12,7 @@ class App extends Component {
         <Header />
         <div className="App-body">
           <h2>Site currently under construction. Please check back later!</h2>
-          <img src={drawnHome} alt="Drawn home" />
+          <img className="App-img" src={drawnHome} alt="Drawn home" />
           <Agents />
         </div>
         <Footer />

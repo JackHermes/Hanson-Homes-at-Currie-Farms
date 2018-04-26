@@ -2,6 +2,8 @@
   background-color: #345f7a;
   color: white;
   display: flex;
+  grid-column: 1 / 10;
+  grid-row: 1;
 }
 
 .App-header h1 {

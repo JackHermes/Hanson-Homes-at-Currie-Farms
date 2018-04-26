@@ -5,18 +5,23 @@ h2 {
 
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 8em);
+  grid-template-rows: repeat(5, 8em);
 }
 
 .App-body {
   background-color: #6c843e;
   color: white;
   /* color: #ad912e; */
-  height:50em;
+  grid-row: 2 / 8;
+  grid-column: 1 / 10;
+  height: 50em;
   margin-top: 0.5em;
   margin-bottom: .5em;
 }
 
-.App-body img {
+.App-img {
   height: 13.505em;
   padding: 3em;
   width: 30em;
