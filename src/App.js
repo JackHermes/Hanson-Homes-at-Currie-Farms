@@ -3,7 +3,7 @@ import Footer from './Footer.js';
 import Header from './Header.js';
 import Agents from './Agents.js';
 import './App.css';
-import drawnHome from './images/sketchedHome.jpg';
+import displayHome from './images/displayHome.jpg';
 
 class App extends Component {
   render() {
@@ -11,8 +11,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="App-body">
-          <h2>Site currently under construction. Please check back later!</h2>
-          <img className="App-img" src={drawnHome} alt="Drawn home" />
+          <h2>We're currently building homes and this website, so check back as we add more content! <br /><br /> In the meantime head over to this link or contact the realtors below for more information.</h2>
+          <img className="App-img" src={displayHome} alt="a home" />
           <Agents />
         </div>
         <Footer />

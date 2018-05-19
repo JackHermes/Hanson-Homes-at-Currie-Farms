@@ -1,28 +1,53 @@
 h2 {
-  padding-top: 1.3em;
+  background: #6c843e;
+  grid-column: 8;
+  grid-row: 3;
+  padding-top: 0.9em;
   margin: 0em;
+  width: 25em;
 }
 
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(5, 8em);
-  grid-template-rows: repeat(5, 8em);
+  grid-template-rows: repeat(10, 8em);
 }
 
 .App-body {
+  align-items: center;
   background-color: #6c843e;
   color: white;
   /* color: #ad912e; */
-  grid-row: 2 / 8;
+  display: grid;
+  grid-template-columns: repeat(22, 4em);
+  grid-template-rows: repeat(50, 2em);
+  grid-row: 2 / 13;
   grid-column: 1 / 10;
-  height: 50em;
+  height: 63em;
   margin-top: 0.5em;
   margin-bottom: .5em;
 }
 
 .App-img {
-  height: 13.505em;
+  /* height: 13.505em; */
+  grid-column: 5;
+  grid-row: 13;
   padding: 3em;
-  width: 30em;
+  width: 55em;
+}
+
+.contacts {
+  display: flex;
+  grid-column: 9 / 11;
+  grid-row: 25;
+  margin: 1em;
+}
+
+.child1 {
+  padding-right: 1em;
+}
+
+.child2 {
+  padding-left: 1em;
 }
