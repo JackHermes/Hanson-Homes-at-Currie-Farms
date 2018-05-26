@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import CFLogo from './images/currieFarmsLogo.png';
+import CFLogo from './images/currieFarmsLogo.PNG';
 
 class Header extends Component {
   render() {
