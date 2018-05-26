@@ -6,8 +6,9 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
+        <h2 className="App-title">Welcome to Currie Farms.</h2>
         <img src={CFLogo} className="logo" alt="logo" />
-        <h1 className="App-title">Welcome Home to Currie Farms.</h1>
+        {/* <h2 className="App-title">Welcome Home.</h2> */}
       </header>
     );
   }
