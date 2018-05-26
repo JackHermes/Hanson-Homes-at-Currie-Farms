@@ -1,36 +1,64 @@
 h2 {
-  background: #6c843e;
-  grid-column: 8;
+  /* grid-column: 8;
   grid-row: 3;
   padding-top: 0.9em;
-  margin: 0em;
-  width: 25em;
+  margin: 0em; */
+  /* width: 500px; */
 }
 
 .App {
-  text-align: center;
   display: grid;
-  grid-template-columns: repeat(5, 8em);
-  grid-template-rows: repeat(10, 8em);
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  /* grid-template-rows: repeat(50, 2em); */
+}
+
+.App > * {
+  grid-column: col-start / span 12;
 }
 
 .App-body {
-  align-items: center;
+  /* align-items: center; */
   background-color: #6c843e;
   color: white;
-  /* color: #ad912e; */
-  display: grid;
-  grid-template-columns: repeat(22, 4em);
-  grid-template-rows: repeat(50, 2em);
-  grid-row: 2 / 13;
-  grid-column: 1 / 10;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* display: grid;
   height: 63em;
   margin-top: 0.5em;
-  margin-bottom: .5em;
+  margin-bottom: .5em; */
 }
 
-.App-img {
-  /* height: 13.505em; */
+.contacts {
+  padding: 10px;
+}
+
+.logo {
+  border-radius: 50px;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.photo {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+@media (min-width: 500px) {
+  .contacts {
+    padding: 15px;
+  }
+  .logo {
+    max-width: 400px;
+    padding: 15px;
+  }
+  .photo {
+    max-width: 90%
+  }
+}
+
+/*.App-img {
   grid-column: 5;
   grid-row: 13;
   padding: 3em;
@@ -50,4 +78,4 @@ h2 {
 
 .child2 {
   padding-left: 1em;
-}
+} */

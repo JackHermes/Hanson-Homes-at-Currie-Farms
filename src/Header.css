@@ -1,11 +1,11 @@
 .App-header {
   background-color: #345f7a;
   color: white;
-  display: flex;
+  /* display: flex;
   grid-column: 1 / 10;
-  grid-row: 1;
+  grid-row: 1; */
 }
-
+/*
 .App-header h1 {
   padding-top: 30px;
 }
@@ -19,4 +19,4 @@
   font-size: 1.5em;
   margin-top: 1.65em;
   margin-left: 1.65em;
-}
+} */
