@@ -1,5 +1,5 @@
 {
-  "name": "h-h",
+  "name": "Currie-Farms",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s --port 80 build",
     "start-prod": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
