@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import CFLogo from './images/currieFarmsLogo.png';
+import CFLogo from './images/currieFarmsLogo.PNG';
 
 class Header extends Component {
   render() {
@@ -8,7 +8,6 @@ class Header extends Component {
       <header className="App-header">
         <h2 className="App-title">Welcome to Currie Farms.</h2>
         <img src={CFLogo} className="logo" alt="logo" />
-        {/* <h2 className="App-title">Welcome Home.</h2> */}
       </header>
     );
   }

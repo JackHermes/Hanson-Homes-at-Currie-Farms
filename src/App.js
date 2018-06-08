@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="App-body">
-          <h3 className="intro">We're currently both building homes and this website, so check back as we add more content! <br /><br /> In the meantime head over to <a href="http://www.larsenhomesnw.com">this link</a> or contact the realtors below for more information.</h3>
+          <h3>We're currently both building homes and this website, so check back as we add more content! <br /><br /> In the meantime head over to <a href="http://www.larsenhomesnw.com">this link</a> or contact the realtors below for more information.</h3>
           <img className="photo" src={displayHome} alt="a home" />
           <Agents />
         </div>

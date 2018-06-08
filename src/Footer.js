@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import CFLogo from './images/currieFarmsLLC.png';
+import CFLogo from './images/currieFarmsLLC.PNG';
 import WindLogo from './images/WindermereLogo.png';
 
 class Footer extends Component {

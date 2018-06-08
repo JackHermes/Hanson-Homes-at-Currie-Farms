@@ -9,19 +9,10 @@ a:hover {
   text-shadow: #4f89af 1px 0 10px;
 }
 
-h2 {
-  /* grid-column: 8;
-  grid-row: 3;
-  padding-top: 0.9em;
-  margin: 0em; */
-  /* width: 500px; */
-}
-
 .App {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, [col-start] 1fr);
-  /* grid-template-rows: repeat(50, 2em); */
 }
 
 .App > * {
@@ -29,20 +20,8 @@ h2 {
 }
 
 .App-body {
-  /* align-items: center; */
   background-color: #6c843e;
   color: white;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* display: grid;
-  height: 63em;
-  margin-top: 0.5em;
-  margin-bottom: .5em; */
-}
-
-.intro {
-
 }
 
 .contacts {
@@ -59,7 +38,6 @@ h2 {
   border-radius: 15px;
   max-width: 95%;
   border: 3px solid #ddd;
-  /* padding: 5px; */
 }
 
 @media (min-width: 500px) {
@@ -75,25 +53,3 @@ h2 {
     max-width: 90%
   }
 }
-
-/*.App-img {
-  grid-column: 5;
-  grid-row: 13;
-  padding: 3em;
-  width: 55em;
-}
-
-.contacts {
-  display: flex;
-  grid-column: 9 / 11;
-  grid-row: 25;
-  margin: 1em;
-}
-
-.child1 {
-  padding-right: 1em;
-}
-
-.child2 {
-  padding-left: 1em;
-} */
