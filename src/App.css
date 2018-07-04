@@ -28,6 +28,11 @@ a:hover {
   padding: 10px;
 }
 
+.intro-wrapper {
+  margin: auto;
+  max-width: 80%;
+}
+
 .logo {
   border-radius: 30px;
   max-width: 200px;
@@ -35,14 +40,20 @@ a:hover {
 }
 
 .photo {
-  border-radius: 15px;
-  max-width: 95%;
+  align-self: center;
   border: 3px solid #ddd;
+  border-radius: 15px;
+  margin: 5px;
+  max-width: 90%;
 }
 
 @media (min-width: 500px) {
   .contacts {
     padding: 20px;
+  }
+  .intro-wrapper {
+    font-size: 1.17em;
+    max-width: 60%;
   }
   .logo {
     border-radius: 50px;
@@ -50,6 +61,6 @@ a:hover {
     padding: 20px;
   }
   .photo {
-    max-width: 90%
+    max-width: 90%;
   }
 }

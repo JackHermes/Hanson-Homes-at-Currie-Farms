@@ -1,18 +1,37 @@
 import React, { Component } from 'react';
 import Footer from './Footer.js';
 import Header from './Header.js';
+// import Introduction from './Introduction.js';
 import Agents from './Agents.js';
-import './App.css';
 import displayHome from './images/displayHome.jpg';
+import './App.css';
 
 class App extends Component {
+
+resize = () => this.forceUpdate();
+
+  componentDidMount() {
+    window.addEventListener('resize', this.resize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize);
+  }
+
   render() {
     return (
       <div className="App">
         <Header />
         <div className="App-body">
-          <h3>We're currently both building homes and this website, so check back as we add more content! <br /><br /> In the meantime head over to <a href="http://www.larsenhomesnw.com">this link</a> or contact the realtors below for more information.</h3>
-          <img className="photo" src={displayHome} alt="a home" />
+          <div className="intro-wrapper">
+            <h3>Welcome to the Currie Farms website! Here's where we get to show off a little and offer you a window into the homes we're creating.</h3>
+            <img className="photo" src={displayHome} alt="a home" />
+            <div>You'll find model layouts to base your home on as well as photos of some of the houses we've finished and contact deets to get more information and set up a tour of what we've done so far. We're proud of our work and look forward to meeting you and welcoming you to your new home.</div>
+          </div>
+          {/*
+            <Location />
+            <ModelHomes />
+          */}
           <Agents />
         </div>
         <Footer />
