@@ -19,10 +19,10 @@ const lot8 = [
   { src: seventh, width: 5, height: 3 }
 ];
 
-export default class Photos extends React.Component {
+export default class Lot8 extends React.Component {
   render() {
     return (
-      <Gallery photos={lot8} />
+      <Gallery className='gallery' photos={lot8} />
     );
   }
 }

@@ -11,7 +11,7 @@ a:hover {
 
 .App {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 10px; // being replaced by 'gap:'
   grid-template-columns: repeat(12, [col-start] 1fr);
 }
 
@@ -24,13 +24,8 @@ a:hover {
   color: white;
 }
 
-.contacts {
-  padding: 10px;
-}
-
-.intro-wrapper {
-  margin: auto;
-  max-width: 80%;
+.gallery {
+  margin: 100px;
 }
 
 .logo {
@@ -54,6 +49,8 @@ a:hover {
   .intro-wrapper {
     font-size: 1.17em;
     max-width: 60%;
+    padding-bottom: 2%;
+    padding-top: 0;
   }
   .logo {
     border-radius: 50px;
