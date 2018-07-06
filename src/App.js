@@ -1,23 +1,15 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Footer from './Footer.js';
 import Header from './Header.js';
 // import Introduction from './Introduction.js';
 import Agents from './Agents.js';
+import Photos from './Photos.js';
+
 import displayHome from './images/displayHome.jpg';
 import './App.css';
 
 class App extends Component {
-
-resize = () => this.forceUpdate();
-
-  componentDidMount() {
-    window.addEventListener('resize', this.resize);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.resize);
-  }
-
   render() {
     return (
       <div className="App">
@@ -32,6 +24,7 @@ resize = () => this.forceUpdate();
             <Location />
             <ModelHomes />
           */}
+          <Photos />
           <Agents />
         </div>
         <Footer />

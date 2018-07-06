@@ -1,0 +1,29 @@
+-make all elements, esp. images mobile-friendly (multiple image sizes)
+  -can I make/add better animations on resizing?
+  -clean up, refactor CSS classes (currently ugly)
+-deploy
+-domain setup
+-add images, filler text, structure, etc.
+-compare with "cozy cottage" design aesthetic/feel...
+-setup analytics
+-finish full ssh setup (?)
+-bundle stylesheets?
+-don't forget to figure out how to deploy production version
+
+
+-I'd like to use identical fonts on the site. Same for colors. I'd also like to use, manipulate the original images to adapt for site speed and mobile response
+-how much text/copy/information will go in here? Will inform what approach we take.
+
+Border: #114f98
+C 92.25
+M 64.45
+Y 31.78
+K 12.38
+Background: #d0dec5
+C 17.52
+M 11.97
+Y 21.74
+K 1.13
+cmyk(6%, 0%, 11%, 13%)
+
+Font: FRANKLIN GOTHIC MEDIUM (REGULAR)
