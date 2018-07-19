@@ -1,6 +1,29 @@
+body::after, body::before {
+  background: #437799;
+  content: "";
+  height: 1em;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+body:before {
+  top: 0;
+}
+
+body:after {
+  bottom: 0;
+}
+
 body {
+  border-left: solid 1em #437799;
+  border-right: solid 1em #437799;
   font-family: "Franklin Gothic", sans-serif;
   margin: 0 auto;
-  padding: 0;
+  padding: 1em;
   text-align: center;
+
+  /* margin: 0.5em; */
+  /* outline: 0.5em solid #437799; */
+  /* outline-offset: 1px; */
 }

@@ -10,9 +10,13 @@ a:hover {
 }
 
 .App {
+  /* border: solid 0.5em #4f89af; */
   display: grid;
   grid-gap: 10px; // being replaced by 'gap:'
   grid-template-columns: repeat(12, [col-start] 1fr);
+  margin: 0.5em;
+  /* outline: 0.5em solid #437799; */
+  /* outline-offset: 1px; */
 }
 
 .App > * {
@@ -20,8 +24,10 @@ a:hover {
 }
 
 .App-body {
-  background-color: #6c843e;
-  color: white;
+  background-color: white;
+  /* #6c843e; */
+  color: #345f7a;
+  /* white; */
 }
 
 .gallery {
@@ -30,7 +36,7 @@ a:hover {
 
 .logo {
   border-radius: 30px;
-  max-width: 200px;
+  max-width: 100px;
   padding: 10px;
 }
 
