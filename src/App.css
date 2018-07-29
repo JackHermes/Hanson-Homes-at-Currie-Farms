@@ -9,19 +9,14 @@ a:hover {
   text-shadow: #4f89af 1px 0 10px;
 }
 
-h2 {
-  /* grid-column: 8;
-  grid-row: 3;
-  padding-top: 0.9em;
-  margin: 0em; */
-  /* width: 500px; */
-}
-
 .App {
+  /* border: solid 0.5em #4f89af; */
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 10px; // being replaced by 'gap:'
   grid-template-columns: repeat(12, [col-start] 1fr);
-  /* grid-template-rows: repeat(50, 2em); */
+  margin: 0.5em;
+  /* outline: 0.5em solid #437799; */
+  /* outline-offset: 1px; */
 }
 
 .App > * {
@@ -29,42 +24,39 @@ h2 {
 }
 
 .App-body {
-  /* align-items: center; */
-  background-color: #6c843e;
-  color: white;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* display: grid;
-  height: 63em;
-  margin-top: 0.5em;
-  margin-bottom: .5em; */
+  background-color: white;
+  /* #6c843e; */
+  color: #345f7a;
+  /* white; */
 }
 
-.intro {
-
-}
-
-.contacts {
-  padding: 10px;
+.gallery {
+  margin: 100px;
 }
 
 .logo {
   border-radius: 30px;
-  max-width: 200px;
+  max-width: 100px;
   padding: 10px;
 }
 
 .photo {
-  border-radius: 15px;
-  max-width: 95%;
+  align-self: center;
   border: 3px solid #ddd;
-  /* padding: 5px; */
+  border-radius: 15px;
+  margin: 5px;
+  max-width: 90%;
 }
 
 @media (min-width: 500px) {
   .contacts {
     padding: 20px;
+  }
+  .intro-wrapper {
+    font-size: 1.17em;
+    max-width: 60%;
+    padding-bottom: 2%;
+    padding-top: 0;
   }
   .logo {
     border-radius: 50px;
@@ -72,28 +64,6 @@ h2 {
     padding: 20px;
   }
   .photo {
-    max-width: 90%
+    max-width: 90%;
   }
 }
-
-/*.App-img {
-  grid-column: 5;
-  grid-row: 13;
-  padding: 3em;
-  width: 55em;
-}
-
-.contacts {
-  display: flex;
-  grid-column: 9 / 11;
-  grid-row: 25;
-  margin: 1em;
-}
-
-.child1 {
-  padding-right: 1em;
-}
-
-.child2 {
-  padding-left: 1em;
-} */
